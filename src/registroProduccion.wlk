@@ -25,4 +25,5 @@ object registroProduccion {
 	method ultimoValorDeProduccion(){return produccionPorDia.last()}
 	
 	method cantidadProduccionesMayorALaPrimera(){return produccionPorDia.count({pd => pd > produccionPorDia.first()})}
+	
 }
